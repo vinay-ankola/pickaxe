@@ -1,0 +1,57 @@
+# Rails Environment Configuration. 
+
+Your git configuration is incomplete.
+user.name and user.email are required for properly using git and services such
+as GitHub (https://github.com/).
+
+ Please enter your name, for example mine is: Wayne E. Seguin
+name > vinay.ankola
+Setting user.name to vinay.ankola
+
+ Please enter your email address, for example mine is: wayneeseguin@gmail.com
+email > vinay74@yahoo.com
+Setting user.email to vinay74@yahoo.com
+DL is deprecated, please use Fiddle
+
+---
+git:
+  user.name:  vinay.ankola
+  user.email: vinay74@yahoo.com
+  version:    git version 1.9.4.msysgit.2
+
+ruby:
+  bin:        C:/RailsInstaller/Ruby2.0.0/bin/ruby.exe
+  version:    ruby 2.1.5p273 (2014-11-13 revision 48405) [i386-mingw32]
+
+rails:
+  bin:        C:/RailsInstaller/Ruby2.0.0/bin/rails.bat
+  version:    Rails 4.1.8
+
+ssh:
+  public_key_location: U:\.ssh/id_rsa.pub
+  public_key_contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFqSOo93KU+BnUQjwwzKxjMv76HdP5NPc5IA2u37skdcHU7/wMfX1Iie7OhlDTY9TAlghwe1WQZArmsKSmfr0UMNK
+gDyZAgpSAjDcveJ/pCeeKZPXpUgh7WeEbmP89yLBTu0WlLZ5t0rPYtUq0LXZylQ8wkQs4tWtrqne89LEfEcPDwDxzSvxJiSibzl17wQM+oBRKytAy/MdEV9xUy4TKetVrFDOigMN893nU/OJN7sNIc
+i/Z3qxVbidYVUENlXJqAK/sp915yNwiaoXA0aPPwqfekqSMrDi9+CXyD/KPRF1aIohCIPxEj+roAW30nW5U207cBuCoBoBvF69DLxLV vinay.ankola <vinay74@yahoo.com>
+
+
+NOTES:
+
+  Your public ssh key (id_rsa.pub) has been automatically generated and copied to your clipboard.
+  
+  
+  =====================================================================================
+  Installing RubyGems
+  https://forwardhq.com/help/installing-ruby-windows
+  http://rubyinstaller.org/downloads/
+  Download 32-bit file: DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
+  
+  c:\DevKit>ruby dk.rb init
+[INFO] found RubyInstaller v2.1.6 at C:/Ruby21
+
+Initialization complete! Please review and modify the auto-generated
+'config.yml' file to ensure it contains the root directories to all
+of the installed Rubies you want enhanced by the DevKit.
+
+c:\DevKit>ruby dk.rb install
+[INFO] Updating convenience notice gem override for 'C:/Ruby21'
+[INFO] Installing 'C:/Ruby21/lib/ruby/site_ruby/devkit.rb'

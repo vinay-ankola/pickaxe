@@ -1,0 +1,4 @@
+http://stackoverflow.com/questions/29201748/how-to-resolve-bundle-install-rake-error-and-gemremotefetcherfetcherror
+http://stackoverflow.com/questions/19150017/ssl-error-when-installing-rubygems-unable-to-pull-data-from-https-rubygems-o/29624099#29624099
+https://forwardhq.com/help/installing-ruby-windows
+http://rubyinstaller.org/downloads/
